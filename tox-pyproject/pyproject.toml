@@ -36,7 +36,7 @@ test = [
     "PyYAML",
     "coverage",
     "lark",
-    "pytest",
+    "pytest==8.0.1",  # pin until ROS plugin is fixed at https://github.com/ros2/launch/pull/766
     "pytest-cov",
     "tox",
 ]

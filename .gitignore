@@ -1,1 +1,7 @@
+**/*.egg-info/
+**/.output-py*/
+**/.tox/
+**/build/
+*.code-workspace
 __pycache__
+venv/
